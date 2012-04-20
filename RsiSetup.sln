@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RsiSetup", "RsiSetup\RsiSetup.vdproj", "{7AECBC61-CDE3-4548-A139-9E7320B49737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AECBC61-CDE3-4548-A139-9E7320B49737}.Debug|Default.ActiveCfg = Debug
+		{7AECBC61-CDE3-4548-A139-9E7320B49737}.Debug|Default.Build.0 = Debug
+		{7AECBC61-CDE3-4548-A139-9E7320B49737}.Release|Default.ActiveCfg = Release
+		{7AECBC61-CDE3-4548-A139-9E7320B49737}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

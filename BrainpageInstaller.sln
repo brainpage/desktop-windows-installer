@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RsiSetup", "RsiSetup\RsiSetup.vdproj", "{7AECBC61-CDE3-4548-A139-9E7320B49737}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BrainpageInstaller", "BrainpageInstaller\BrainpageInstaller.vdproj", "{7AECBC61-CDE3-4548-A139-9E7320B49737}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

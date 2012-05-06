@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:RsiSetup"
+"ProjectName" = "8:BrainpageInstaller"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -15,62 +15,62 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_5F788ACD800ACAB87A3CD4A80817C842"
-        "OwnerKey" = "8:_BD48EC7C85864B168DC29FBE05CC5D6A"
+        "MsmKey" = "8:_72767820DD3704ACDD139D9DA4C3FA71"
+        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5F788ACD800ACAB87A3CD4A80817C842"
-        "OwnerKey" = "8:_AECD306D3B0A977B2C6EE3F804BE7374"
+        "MsmKey" = "8:_72767820DD3704ACDD139D9DA4C3FA71"
+        "OwnerKey" = "8:_7595E88EC140F109C92E8C094C5A22FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AECD306D3B0A977B2C6EE3F804BE7374"
-        "OwnerKey" = "8:_BD48EC7C85864B168DC29FBE05CC5D6A"
+        "MsmKey" = "8:_7595E88EC140F109C92E8C094C5A22FE"
+        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BD48EC7C85864B168DC29FBE05CC5D6A"
+        "MsmKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F3447704C7607D9184834AA91309F950"
-        "OwnerKey" = "8:_BD48EC7C85864B168DC29FBE05CC5D6A"
+        "MsmKey" = "8:_A753D13E3FA7461109A9BCE46A391D43"
+        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F3447704C7607D9184834AA91309F950"
-        "OwnerKey" = "8:_AECD306D3B0A977B2C6EE3F804BE7374"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F3447704C7607D9184834AA91309F950"
+        "MsmKey" = "8:_A753D13E3FA7461109A9BCE46A391D43"
+        "OwnerKey" = "8:_7595E88EC140F109C92E8C094C5A22FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BD48EC7C85864B168DC29FBE05CC5D6A"
+        "OwnerKey" = "8:_A753D13E3FA7461109A9BCE46A391D43"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AECD306D3B0A977B2C6EE3F804BE7374"
+        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5F788ACD800ACAB87A3CD4A80817C842"
+        "OwnerKey" = "8:_7595E88EC140F109C92E8C094C5A22FE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_72767820DD3704ACDD139D9DA4C3FA71"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -81,7 +81,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\RsiSetup.msi"
+        "OutputFilename" = "8:Debug\\BrainpageInstaller.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -98,6 +98,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -105,7 +118,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\RsiSetup.msi"
+        "OutputFilename" = "8:Release\\BrainpageInstaller.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -122,6 +135,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -129,17 +155,17 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_70CE1AF267274CCD8192FA707940BED0"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_78B0C5C4E55E4E01B4C3C8172C4D6FA4"
             {
-            "Name" = "8:Tracker.exe"
+            "Name" = "8:Brainpage.exe"
             "Condition" = "8:"
-            "Object" = "8:_BD48EC7C85864B168DC29FBE05CC5D6A"
+            "Object" = "8:_A089F01EC11947C5AC228F8615CF1808"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_5F3985C8_D27B_416B_8871_BB63374FA075"
+            "Identifier" = "8:_D98076E8_1D73_4963_A522_8BC16BA70E19"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -166,14 +192,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5F788ACD800ACAB87A3CD4A80817C842"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_72767820DD3704ACDD139D9DA4C3FA71"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SuperSocket.ClientEngine, Version=1.5.0.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5F788ACD800ACAB87A3CD4A80817C842"
+                    "_72767820DD3704ACDD139D9DA4C3FA71"
                     {
                     "Name" = "8:SuperSocket.ClientEngine.DLL"
                     "Attributes" = "3:512"
@@ -197,14 +223,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AECD306D3B0A977B2C6EE3F804BE7374"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7595E88EC140F109C92E8C094C5A22FE"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:WebSocket4Net, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_AECD306D3B0A977B2C6EE3F804BE7374"
+                    "_7595E88EC140F109C92E8C094C5A22FE"
                     {
                     "Name" = "8:WebSocket4Net.DLL"
                     "Attributes" = "3:512"
@@ -228,20 +254,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BD48EC7C85864B168DC29FBE05CC5D6A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A089F01EC11947C5AC228F8615CF1808"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tracker, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:Brainpage, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_BD48EC7C85864B168DC29FBE05CC5D6A"
+                    "_A089F01EC11947C5AC228F8615CF1808"
                     {
-                    "Name" = "8:Tracker.exe"
+                    "Name" = "8:Brainpage.exe"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\..\\desktop-windows\\rsi\\windows\\Tracker\\bin\\Debug\\Tracker.exe"
+            "SourcePath" = "8:F:\\desktop-windows\\rsi\\windows\\Brainpage\\bin\\Debug\\Brainpage.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FE04FE1C13BF42F5A67259B9CE87CBD5"
@@ -259,14 +285,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F3447704C7607D9184834AA91309F950"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A753D13E3FA7461109A9BCE46A391D43"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=4.0.5.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F3447704C7607D9184834AA91309F950"
+                    "_A753D13E3FA7461109A9BCE46A391D43"
                     {
                     "Name" = "8:Newtonsoft.Json.DLL"
                     "Attributes" = "3:512"
@@ -345,24 +371,24 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:RsiSetup"
+        "ProductName" = "8:BrainpageInstaller"
         "ProductCode" = "8:{4120259E-386C-42BC-9B7C-9394D560FB1C}"
-        "PackageCode" = "8:{96013BC7-FCFF-40E1-901D-0AA72F25E70C}"
+        "PackageCode" = "8:{974AC205-8837-4A09-8BCE-9E3A530B4E57}"
         "UpgradeCode" = "8:{71A98723-ED91-4542-A842-302F7F3FC41D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Brainpage"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:brainpage.com"
-        "Title" = "8:RsiSetup"
+        "Title" = "8:BrainpageInstaller"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Brainpage"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:AntiRSI"
         "ARPURLINFOABOUT" = "8:brainpage.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"

@@ -16,7 +16,7 @@
         "Entry"
         {
         "MsmKey" = "8:_72767820DD3704ACDD139D9DA4C3FA71"
-        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
+        "OwnerKey" = "8:_8674FA3CE75042D288CB02EB0224AEAB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -28,19 +28,19 @@
         "Entry"
         {
         "MsmKey" = "8:_7595E88EC140F109C92E8C094C5A22FE"
-        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
+        "OwnerKey" = "8:_8674FA3CE75042D288CB02EB0224AEAB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
+        "MsmKey" = "8:_8674FA3CE75042D288CB02EB0224AEAB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A753D13E3FA7461109A9BCE46A391D43"
-        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
+        "OwnerKey" = "8:_8674FA3CE75042D288CB02EB0224AEAB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,7 +58,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A089F01EC11947C5AC228F8615CF1808"
+        "OwnerKey" = "8:_8674FA3CE75042D288CB02EB0224AEAB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -155,17 +155,17 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_78B0C5C4E55E4E01B4C3C8172C4D6FA4"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_BF02C25EFF2C4818A49B1D53487EA8D2"
             {
             "Name" = "8:Brainpage.exe"
             "Condition" = "8:"
-            "Object" = "8:_A089F01EC11947C5AC228F8615CF1808"
+            "Object" = "8:_8674FA3CE75042D288CB02EB0224AEAB"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_D98076E8_1D73_4963_A522_8BC16BA70E19"
+            "Identifier" = "8:_55D410DB_DA6E_477C_80C2_80CC5A96E01A"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -254,14 +254,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A089F01EC11947C5AC228F8615CF1808"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8674FA3CE75042D288CB02EB0224AEAB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Brainpage, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_A089F01EC11947C5AC228F8615CF1808"
+                    "_8674FA3CE75042D288CB02EB0224AEAB"
                     {
                     "Name" = "8:Brainpage.exe"
                     "Attributes" = "3:512"

@@ -16,7 +16,7 @@
         "Entry"
         {
         "MsmKey" = "8:_11CB8FD2B2CA572EAFD6D68DFDDA44DA"
-        "OwnerKey" = "8:_5321416F4E7C4378951367E126AF094A"
+        "OwnerKey" = "8:_29BF4E4F02144A5A903936F956B7AD82"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -27,32 +27,32 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_29BF4E4F02144A5A903936F956B7AD82"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_2D666068D99E4D08B4AF6764DAF81B3E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5321416F4E7C4378951367E126AF094A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7C1D90AB0F064A7C8A1D548F984DE208"
+        "MsmKey" = "8:_688EAC4E55224E9099C478BFD4F25610"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_9C085852116DFE96B19A41F27AC49796"
-        "OwnerKey" = "8:_5321416F4E7C4378951367E126AF094A"
+        "OwnerKey" = "8:_29BF4E4F02144A5A903936F956B7AD82"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_AE1E26493F078AC4230640FA6E237CFB"
-        "OwnerKey" = "8:_5321416F4E7C4378951367E126AF094A"
+        "OwnerKey" = "8:_29BF4E4F02144A5A903936F956B7AD82"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -64,19 +64,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AE1E26493F078AC4230640FA6E237CFB"
+        "OwnerKey" = "8:_688EAC4E55224E9099C478BFD4F25610"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7C1D90AB0F064A7C8A1D548F984DE208"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5321416F4E7C4378951367E126AF094A"
+        "OwnerKey" = "8:_29BF4E4F02144A5A903936F956B7AD82"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -89,6 +83,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_11CB8FD2B2CA572EAFD6D68DFDDA44DA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_AE1E26493F078AC4230640FA6E237CFB"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -173,17 +173,17 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A0D10C419C4F40059AAEB424B9C5F10E"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_AB35DE769D7043C8BC9A58834FBFFEF9"
             {
             "Name" = "8:Brainpage.exe"
             "Condition" = "8:"
-            "Object" = "8:_5321416F4E7C4378951367E126AF094A"
+            "Object" = "8:_29BF4E4F02144A5A903936F956B7AD82"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_25858814_F604_40F7_9F43_000CC7EE040E"
+            "Identifier" = "8:_55A7211A_B567_4C8F_9BF3_56F268347CB0"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -241,34 +241,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D666068D99E4D08B4AF6764DAF81B3E"
-            {
-            "SourcePath" = "8:F:\\desktop-windows\\Brainpage\\resources\\favicon.ico"
-            "TargetName" = "8:favicon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_FE04FE1C13BF42F5A67259B9CE87CBD5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5321416F4E7C4378951367E126AF094A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_29BF4E4F02144A5A903936F956B7AD82"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Brainpage, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_5321416F4E7C4378951367E126AF094A"
+                    "_29BF4E4F02144A5A903936F956B7AD82"
                     {
                     "Name" = "8:Brainpage.exe"
                     "Attributes" = "3:512"
@@ -292,14 +272,34 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7C1D90AB0F064A7C8A1D548F984DE208"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D666068D99E4D08B4AF6764DAF81B3E"
+            {
+            "SourcePath" = "8:F:\\desktop-windows\\Brainpage\\resources\\favicon.ico"
+            "TargetName" = "8:favicon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_FE04FE1C13BF42F5A67259B9CE87CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_688EAC4E55224E9099C478BFD4F25610"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Brainpage.resources, Version=1.0.0.0, Culture=zh-CN, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_7C1D90AB0F064A7C8A1D548F984DE208"
+                    "_688EAC4E55224E9099C478BFD4F25610"
                     {
                     "Name" = "8:Brainpage.resources.dll"
                     "Attributes" = "3:512"
@@ -308,7 +308,7 @@
             "SourcePath" = "8:F:\\desktop-windows\\Brainpage\\bin\\Debug\\zh-CN\\Brainpage.resources.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_6A42813E960341889FF7D54F7B7D5F07"
+            "Folder" = "8:_2A9649085FB84C64A47FEFDDFE8C2B41"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -423,13 +423,13 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_6A42813E960341889FF7D54F7B7D5F07"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2A9649085FB84C64A47FEFDDFE8C2B41"
                     {
                     "Name" = "8:zh-CN"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_087E6A2822514BA5A5F5BD37E60A935A"
+                    "Property" = "8:_00271798A53C4F67A2229A7712E964CB"
                         "Folders"
                         {
                         }
@@ -453,7 +453,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:AntiRSI"
         "ProductCode" = "8:{4120259E-386C-42BC-9B7C-9394D560FB1C}"
-        "PackageCode" = "8:{FA6D4E30-989C-4DCC-AC95-471EDA45DB16}"
+        "PackageCode" = "8:{B8C2C1FA-6047-4726-BA73-998E78CA5F4B}"
         "UpgradeCode" = "8:{71A98723-ED91-4542-A842-302F7F3FC41D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
